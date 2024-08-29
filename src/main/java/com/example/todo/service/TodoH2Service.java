@@ -70,7 +70,7 @@ public class TodoH2Service implements TodoRepository {
 
     @Override
     public void deleteTodo(int id) {
-        db.update("delete from todo where id = ? ", id);
+        db.update("delete from todolist where id = ? ", id);
     }
 
 }
