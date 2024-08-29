@@ -32,7 +32,7 @@ public class TodoController {
         return todoService.getTodos();
     }
 
-    @GetMapping("/todos/id")
+    @GetMapping("/todos/{id}")
     public Todo getTodoById(@PathVariable("id") int id) {
         return todoService.getTodoById(id);
     }
