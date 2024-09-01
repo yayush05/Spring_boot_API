@@ -6,8 +6,8 @@ import java.util.*;
 public class Todo {
     private int id;
     private String todo;
-    private String status;
     private String priority;
+    private String status;
 
     public Todo(int id, String todo, String status, String priority) {
         this.id = id;
